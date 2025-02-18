@@ -13,7 +13,7 @@ class Graph {
         }
     }
 
-    // Add an edge to the graph
+    // Add an edge to the graph.
     public void addEdge(int source, int destination) {
         adjacencyList[source].add(destination);
     }
