@@ -26,7 +26,7 @@ class Graph {
         visited[startVertex] = true;
         queue.add(startVertex);
 
-        System.out.println("BFS starting from vertex " + startVertex + ":");
+        System.out.println("BFS starting from vertex " + startVertex + " : ");
         while (queue.isEmpty()) {
             int currentVertex = queue.poll();
             System.out.print(currentVertex + " ");
